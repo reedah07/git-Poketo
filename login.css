@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    background-color: rgb(245, 99, 73);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.para {
+    background-color: rgb(245, 99, 73);
+}
+
+.nav-bar {
+    border-bottom: 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 8%);
+    top: 0!important;
+    background-color: white;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.nav-list {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    padding-right: 20px;
+    color: rgb(180, 174, 174);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-menu {
+    display: none;
+    top: 81px;
+    height: 166px;
+    padding-top: 70px;
+    margin-top: 0px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 70px 0;
+    background: #f9f9f9;
+    text-align: center;
+    
+}
+
+.sub-menu a:hover{
+    color: blue;
+}
+
+.nav-links:hover {
+    color: blue;
+}
+
+.nav-logo {
+    opacity: 0.3;
+    padding-right: 20px;
+}
+
+.nav-logo:hover {
+    opacity: 0.6;
+}
+
+.nav-img {
+    margin-top: 10px;
+}
+
+.decor {
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(73, 70, 70);
+    padding: 2px 40px;
+    margin-top: 30px;
+}
+
+input[type=email],
+input[type=password] {
+    height: 55px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 100px;
+    margin-bottom: 50px;
+    display: inline-block;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    background: #e7e7e7;
+    color: #565656;
+    transition: all 150ms ease-in-out;
+}
+
+.button, input[type=submit] {
+    background: #565656;
+    font-family: "Work Sans",sans-serif;
+    color: #fff!important;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 30px;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    height: 55px;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 53px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+#RecoverPassword {
+    border-bottom-color: inherit;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    font-size: 25px;
+    color: #565656;
+    text-decoration: none;
+}
+
+#customer_register_link {
+    color: #565656;
+    font-size: 25px;
+}
+
+.new-customer {
+    font-size: 25px;
+    color: #565656;
+}
+
+#customer_register_link:hover,
+#RecoverPassword:hover{
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.subside {
+    align-items: center;
+    display: flex;
+}
+
+.sign {
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.side1 h2{
+    color: rgb(73, 70, 70);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.side2 {
+    margin-top: 50px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: grey;
+    height: 1480px;
+}
+
+.footer-slide1 {
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-heading {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    color: rgb(200, 193, 193);
+}
+
+.footer-input {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: rgb(77, 73, 73);
+    padding: 25px 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-btn {
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: 1px solid rgb(168, 163, 163);
+    background-color: rgb(168, 163, 163);
+}
+
+.footer-label {
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer-l {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    margin-right: 20px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(226, 222, 222);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-heading2 {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    color: rgb(200, 193, 193);
+}
+
+.footer-icon {
+    display: flex;
+    margin-top: 20px
+}
+
+.footer-icon img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+
+.footer-heading3 {
+    font-size: 20px;
+    padding-top: 70px;
+    color: rgb(206, 199, 199);
+}
+
+.footer-heading4 {
+    font-size: 18px;
+    margin-top: 400px;
+    color: rgb(206, 199, 199);
+}
+
+.footer-heading4-decor {
+    cursor: pointer;
+    color: rgb(87, 87, 165);
+    border-bottom-color: inherit;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.footer-slide2 {
+    border-left: 0.5px solid rgb(161, 158, 158);
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer1-heading {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: rgb(200, 193, 193);
+}
+
+.footer2-heading,
+.footer2-heading1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    cursor: pointer;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.footer2-heading:hover,
+.footer2-heading1:hover {
+    color: rgb(87, 87, 165);
+    border-bottom-color: inherit;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.footer-paragraph {
+    color: rgb(200, 193, 193);
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 1.0;
+}
+
+.footer3-heading {
+    color: rgb(206, 199, 199);
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.flinks {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 17px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.ftext {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 17px;
+    padding-top: 22px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.flinks:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.ftext:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.f-foot {
+    display: flex;
+    gap: 40px;
+}
