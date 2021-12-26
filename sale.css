@@ -139,21 +139,6 @@ body {
     font-family: sans-serif;
 }
 
-@media (max-width: 2560px) {
-    .heading p{
-        text-align: center;
-    }
-    .box {
-        width: 15%;
-        margin-left: 1700px;
-    }
-    .box1 {
-        width: 15%;
-        padding: 12px 15px;
-        margin-left: 15px;
-    } 
-}
-
 @media (max-width: 1440px) {
     
     .heading p{
